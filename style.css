@@ -1,0 +1,556 @@
+.stocks{
+    /*margin: 0 auto;*/
+
+    width: 100%;
+}
+
+.main{
+    position: relative;
+    width: 555px;
+    height: 420px;
+    overflow: hidden;
+    background-image: url('img/stocks/1.jpg');
+    background-repeat: no-repeat;
+}
+.overlay{
+    position: relative;
+    display: block;
+    width: 489px;
+    height: 355px;
+    top: 32px;
+    left: 33px;
+    right: 33px;
+    bottom: 33px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+.text{
+    position: absolute;
+    width: 242px;
+    height: 80px;
+    margin-top: 153px;
+    margin-left: 20px;
+}
+.overlay-subtext{
+    position: relative;
+    text-transform: uppercase;
+    color:white;
+    font-size: 37pt;
+    top: -45px;
+}
+.overlay-text{
+    position: relative;
+    text-transform: uppercase;
+    color:white;
+    font-size: 27pt;
+    top: -12px;
+    /*left: 20px;*/
+}
+.discount{
+    position: relative;
+    width: 160px;
+    height: 83px;
+    border: 4px solid white;
+    top: 251px;
+    margin-left: 20px;
+}
+span{
+    /*font-family: ﻿AdobeInvisFont, ﻿Poppins-SemiBold, ﻿Courier;*/
+    font-size: 45pt;
+    color: rgba(255, 255, 255, 255);
+    position: relative;
+    bottom:12px;
+
+}
+.main-2 {
+    width: 555px;
+    height: 420px;
+    margin-left: 10px;
+}
+.box-1{
+    background-color:#e8edf7;
+    width: 555px;
+    height: 195px;
+    overflow: hidden;
+}
+.left{
+    width: 183px;
+    height: 265px;
+    position: relative;
+    top:-52px;
+    left:-35px;
+
+}
+.right{
+    position: relative;
+    width: 168px;
+    height: 199px;
+    top: -465px;
+    left: 395px;
+    transform: scale(-1,1);
+}
+.desc-1 {
+    position: relative;
+    margin: 50px auto;
+    width: 203px;
+    height: 95px;
+    top: -300px;
+}
+
+.box-2{
+    background-color: #fbf3f7;
+    width: 555px;
+    height: 195px;
+    overflow: hidden;
+}
+.cent{
+    position:relative;
+    width: 295px;
+    height: 234px;
+    transform: scale(-1,1);
+    top:-20px;
+    left:-40px;
+}
+.desc-1__title{
+    text-transform: uppercase;
+    font-size: 21pt;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.desc-1__subtitle{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0 ;
+    margin-bottom: 0;
+}
+.desc-1__price{
+    color:#d58e32;
+    font-size: 34pt;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.desc-2{
+    position: relative;
+    width: 245px;
+    height: 45px;
+    top:-130px;
+    left:280px;
+}
+.title{
+    color:#d58e32;
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+.subtitle{
+    color:#212021;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+@media screen and (max-device-width: 480px){
+    .main{
+        display:none;
+    }
+    .main-2{
+        margin-left: 0;
+    }
+}
+
+
+.container{
+    /*width: 1800px;*/
+}
+.furniture-wrapper{
+    width: 690px;
+    height: 50px;
+}
+.furniture__header{
+    font-size: 22pt;
+    text-transform: uppercase;
+    color: rgba(42, 42, 42, 255);
+    float:left;
+}
+/*hr{*/
+/*    color: grey;*/
+/*    height: 3px;*/
+/*}*/
+.card{
+    max-width: 262px;
+    flex: 0 0 31%;
+    height: 410px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.card-img-container{
+    width: 260px;
+    height: 260px;
+    background-color: #f4f5f7;
+}
+.card-img-top{
+    height: 260px;
+    display: block;
+    background-color: #f4f5f7;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+}
+.sale{
+    display: none;
+    position: relative;
+    top:-234px;
+    left:119px;
+    width: 43px;
+    height: 43px;
+    border-radius: 0 0 90px 90px;
+    background-color: black;
+    margin-top: -27px;
+}
+.sale-text{
+    color:white;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.text-wrapper{
+    display: none;
+    width: 241px;
+    text-align: center;
+    position: relative;
+    bottom:38px;
+    margin-bottom: -38px;
+    left: 8px;
+}
+
+.qv-frame{
+    width: 87px;
+    height: 37px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    float:left;
+    padding-top: 5px;
+}
+.add-to-cart-frame{
+    width: 132px;
+    height: 37px;
+    background-color: black;
+    color:white;
+    float: right;
+}
+.basket-wrapper{
+    width: 113px;
+    padding-left: 8px;
+}
+.basket{
+    width: 17px;
+    height: 16px;
+    float: left;
+    padding-top: 5px;
+}
+.add-to-cart{
+    width: 86px;
+    padding-left: 11px;
+    padding-top: 11px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 8pt;
+    font-weight: bold;
+    float: right;
+    margin-bottom: 0;
+}
+.card-body{
+    width: 260px;
+    height: 150px;
+    padding-top: 5px;
+}
+.card-title {
+    /*font-family: ﻿AdobeInvisFont, ﻿Poppins-SemiBold, ﻿Courier;*/
+    margin-top: 0;
+    font-size: 14pt;
+    font-weight: bold;
+    color: rgba(42, 42, 42, 255);
+    text-align: center;
+    margin-bottom: 0;
+}
+.card-rate{
+    font-size: 11px;
+    text-align: center;
+    padding-top: 11px;
+    margin-bottom: 20px;
+}
+.card-line:before{
+    content:'';
+    display: block;
+    border: 1px solid black;
+}
+.wrapper-frame{
+    width: 78px;
+    margin-top: 14px;
+}
+.heart-frame{
+    width: 37px;
+    height: 37px;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 5px;
+    float: left;
+}
+
+.exchange-frame{
+    width: 37px;
+    height: 37px;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 5px;
+    float: right;
+}
+.price-wrapper{
+    width: 260px;
+    height: 37px;
+}
+
+.card-price {
+    width: 78px;
+    height: 37px;
+    background-color: black;
+    font-size: 18pt;
+    text-align: center;
+    color: white;
+    float: right;
+    margin-top: -37px;
+}
+.furniture-price{
+    font-size: 18pt;
+}
+.grey-price{
+    width: 47px;
+    float:left;
+}
+.old-price{
+    width: 47px;
+    color:grey;
+    text-decoration: line-through;
+    float:right;
+}
+.filter-btn{
+    width: 107px;
+    height: 34px;
+    border: 1px solid  grey;
+    float: right;
+    margin-top: 5px;
+    display: none;
+}
+.filter-btn-wrapper{
+    text-align: center;
+    margin-top: 3px;
+
+}
+.item-line{
+    margin-top: 30px;
+}
+.item-name {
+    padding-left: 13px;
+    color:black;
+    font-weight: bold;
+}
+
+.item-link:before{
+   position: absolute;
+   display: block;
+   content: "";
+   top: 78px;
+      left:9px;
+   right: 8px;
+  width: 8px;
+  height: 8px;
+    margin-top: -3px;
+     border-top: 1px solid black;
+    border-right: 1px solid black;
+   -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.item-line:hover {
+    color:orange;
+
+}
+.item-count{
+    display:block;
+    width: 23px;
+    height: 23px;
+    right: -228px;
+    top: -34px;
+    text-align: center;
+    font-size: 1.1538461538em;
+    line-height: 23px;
+    color:white;
+    background: black;
+    border-radius: 50%;
+}
+/*------------checkbox------------*/
+.color-f .size-f .tag-f{
+    margin-top: 60px;
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    height: 13px;
+    width: 13px;
+
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    top:2px;
+    left:2px;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+
+}
+
+/* Style the checkmark/indicator */
+.checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color:orange;
+}
+/*------------size-filter------------*/
+.size-f{
+    margin-top: 60px;
+    font-size: 16pt;
+    font-weight: bold;
+}
+.size-container {
+    display: block;
+    position: relative;
+    padding-left: 37px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 13pt;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.size-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.size-checkmark {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    height: 13px;
+    width: 13px;
+    border: 1px solid black;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+.size-container input:checked ~ .size-checkmark {
+    background-color: orange;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.size-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.size-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.size-container .size-checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid blue;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.main-size-container{
+    width: 262px;
+    height: 197px;
+    margin-top: 30px;
+
+}
+a{
+    color: #e3e3e3;
+    text-decoration: none;
+}
+a:hover{
+    color:orange;
+    text-decoration: none;
+}
+.tag-container:hover {
+    border: 1px solid orange;
+}
+
+.tag-container{
+    height: 35px;
+    margin-right: 16px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding: 5px 15px;
+    color: lightgrey;
+    list-style-type: none;
+}
+
